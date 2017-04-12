@@ -10,7 +10,7 @@
 * need to setup MongoDB
 
 
-## url
+## urls
 * http://localhost:3000/test/oauth
 * http://localhost:3000/test/sync
 
