@@ -26,6 +26,7 @@ TODO
 ## docs
 * https://github.com/basecamp/bc3-api
 * https://github.com/intridea/oauth2
+* http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/
 
 ## utils
 ### converting html > haml
