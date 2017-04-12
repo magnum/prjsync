@@ -7,7 +7,7 @@
 * BASECAMP_CLIENT_SECRET
 * BASECAMP_AUTHENTICATION_TOKEN (while testing...)
 ### other tools
-* need to setup MONGO
+* need to setup MongoDB
 
 
 ## url
@@ -17,6 +17,11 @@
 ## integrations
 ### basecamp
 https://integrate.37signals.com/apps
+### harvest
+TODO
+### bitbucket
+TODO
+
 
 ## docs
 * https://github.com/basecamp/bc3-api
