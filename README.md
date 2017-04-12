@@ -18,6 +18,9 @@
 ### basecamp
 https://integrate.37signals.com/apps
 
+## docs
+* https://github.com/basecamp/bc3-api
+* https://github.com/intridea/oauth2
 
 ## utils
 ### converting html > haml
