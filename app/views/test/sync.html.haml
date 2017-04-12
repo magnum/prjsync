@@ -1,7 +1,13 @@
 %h1
+  = link_to Settings.app.name, root_url
+  -
+  %small
+    = Rails.env
+
+%h2
   =t("Channels")
 - @channels.each do |channel|
-  %h2
+  %h3
     = channel.name
   %ul#projects
     - channel.projects.each do |project|
