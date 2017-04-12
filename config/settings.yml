@@ -1,0 +1,7 @@
+
+app:
+
+integrations:
+  basecamp:
+    client_id: <%= ENV["BASECAMP_CLIENT_ID"] %>
+    client_SECRET: <%= ENV["BASECAMP_CLIENT_SECRET"] %>
