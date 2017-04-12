@@ -8,7 +8,7 @@ Config.setup do |config|
 
   # Overwrite arrays found in previously loaded settings file. When set to `false`, arrays will be merged.
   #
-  # config.overwrite_arrays = true
+  config.overwrite_arrays = false
 
   # Load environment variables from the `ENV` object and override any settings defined in files.
   #

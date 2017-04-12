@@ -1,0 +1,10 @@
+%h1
+  =t("Channels")
+- @channels.each do |channel|
+  %h2
+    = channel.name
+  %ul#projects
+    - channel.projects.each do |project|
+      %li
+        = #debug project
+        = link_to project["name"], "https://3.basecamp.com/#{Settings.integrations[channel.code].account_id}/projects/#{project["id"]}", target: "_blank"

@@ -1,0 +1,25 @@
+
+%style
+  :css
+    pre {
+      height: auto;
+      max-height: 200px;
+      overflow: auto;
+      background-color: #eeeeee;
+      word-break: normal !important;
+      word-wrap: normal !important;
+      white-space: pre !important;
+    }​
+
+
+-if @error
+  %pre
+    = @error.message
+  =link_to "click to authorize app".upcase, @url, target: "_blank"
+
+-else
+  -if @token
+    %h3
+      token
+    %pre{style: "overflow: auto;"}
+      =@token.token
