@@ -46,7 +46,6 @@ class BasecampSynchronizer < Synchronizer
 
   def headers
     token = ENV["BASECAMP_AUTHENTICATION_TOKEN"]
-
     {
       "Authorization" => "Bearer #{token}",
       "Content-Type" => "application/json",
